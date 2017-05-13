@@ -1,0 +1,6 @@
+host: '0.0.0.0'
+port: 5000
+cmd:
+  dir: ['cmd', '/C','dir', '{path}']
+  cmd: ['commands\sample.cmd', '{path}', '{grep}']
+
